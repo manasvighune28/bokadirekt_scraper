@@ -1,6 +1,7 @@
-# Python
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
 
 # Virtual environment
 .venv/
@@ -8,10 +9,16 @@ __pycache__/
 # Output artifacts
 output/
 
-# Playwright browsers (if used)
+# Logs
+*.log
+
+# Playwright cache
 playwright/.cache/
 
-# Node/React (if applicable)
+# Node/React build artifacts
 node_modules/
 dist/
 build/
+
+# VS Code settings (optional, keep if you want to share)
+.vscode/
